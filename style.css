@@ -83,6 +83,7 @@ main section#mission > div {
 main section#featured-tea {
   width: 1000px;
   margin: auto;
+  scroll-margin-top: 90px;
 }
 
 main section#featured-tea ul {
@@ -141,4 +142,29 @@ footer p {
   font-size: smaller;
   text-align: left;
   margin-left: 20px;
+}
+
+@media (max-width: 1275px) {
+  main section#locations,
+  main section#mission {
+    width: 100%;
+    padding: 25px 0;
+  }
+}
+
+@media (max-width: 1025px) {
+  main section#featured-tea {
+    width: 100%;
+  }
+
+  header ul {
+    width: 60%;
+  }
+}
+
+@media (max-width: 675px) {
+  main section#locations p {
+    font-size: smaller;
+    margin: 1rem 0;
+  }
 }
