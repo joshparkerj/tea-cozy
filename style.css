@@ -1,0 +1,144 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+* {
+  opacity: 0.9;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  z-index: 1;
+  background-color: black;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header * {
+  display: inline-block;
+}
+
+header h1 {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  height: 50px;
+  margin: 0;
+  background-image: url("assets/img-tea-cozy-logo.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header h1 span {
+  opacity: 0;
+}
+
+header ul {
+  position: absolute;
+  right: 0px;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  align-items: center;
+  margin: 0;
+}
+
+header ul a,
+footer address a {
+  color: seashell;
+}
+
+main,
+footer {
+  position: relative;
+  top: 62px;
+}
+
+main section#mission {
+  margin: auto;
+  height: 700px;
+  width: 1200px;
+  background-image: url("assets/img-mission-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main section#mission > div {
+  background-color: black;
+  opacity: 1;
+}
+
+main section#featured-tea {
+  width: 1000px;
+  margin: auto;
+}
+
+main section#featured-tea ul {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+figure {
+  width: 300px;
+  margin: 10px;
+}
+
+figure img {
+  height: 200px;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+main section#locations {
+  width: 1200px;
+  height: 450px;
+  margin: auto;
+  padding: 25px;
+  background-image: url("assets/img-locations-background.jpg");
+  background-size: cover;
+  background-position: 0% 15%;
+}
+
+main section#locations ul {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  opacity: 1;
+}
+
+main section#locations li {
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+main section#locations p {
+  margin: 1.5rem 0;
+}
+
+footer address a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer p {
+  font-size: smaller;
+  text-align: left;
+  margin-left: 20px;
+}
